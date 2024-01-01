@@ -4,11 +4,11 @@ class TestStack:
     '''Class Stack in Stack.py'''
 
     def test_init(self):
-        '''Initialize Stack with list'''
-        stk = Stack([1,2,3,4,5])
-        expected = [1,2,3,4,5]
+        '''Initialize Stack with list''' 
+        stk = Stack([1,2,3,4,5]) 
+        expected = [1,2,3,4,5] 
         for index in range(len(expected)):
-            assert(expected[index] == stk.items[index])
+            assert(expected[index] == stk.items[index]) 
 
     def test_push(self):
         '''Push 0 to stack'''
